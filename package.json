@@ -1,0 +1,13 @@
+{
+  "name": "fixfixfix",
+  "version": "1.0.0",
+  "main": "FixFixFix.min.js",
+  "license": "MIT",
+  "scripts": {
+    "build":
+      "babel FixFixFix.js  --minified --presets latest  --plugins transform-es2015-modules-umd  > FixFixFix.min.js "
+  },
+  "devDependencies": {
+    "babel-preset-latest": "^6.24.1"
+  }
+}
